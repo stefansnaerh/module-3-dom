@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" />
+    <title>JavaScript DOM Tutorials</title>
+  </head>
+  <!-- here is the HTML code for the loader-->
+  <body onload="myFunction()" style="margin:0;">
+
+	<div id="loader"></div>
+	
+	<div style="display:none;" id="myDiv" class="animate-bottom">
+  	<div id="wrapper">
+		  <!--------------------------------------------------->
+
+		  <!-- Clock on top of the to-do list-->
+		  <p id="demo"></p>
+		  <!--------------------------------------------------->
+	    <header>
+	    	<div id="page-banner" class="textBlink">
+	    		<h1 class="title">Stefán's to-do list</h1>
+	    	</div>
+	    </header>
+	    <div id="task-list">
+	    	<h2 class="title">Things to do</h2>
+	    	<ul>
+	    		<li>
+	    			<span class="task">Take out the trash</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="task">Finish DOM project</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="task">Water the plants</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="task">Visit mom</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    	</ul>
+	    </div>
+	    <form id="add-task">
+	    	<input type="text" placeholder="Add a task" />
+	    	<button>Add</button>
+	    </form>
+
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
